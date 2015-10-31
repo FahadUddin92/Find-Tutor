@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+ <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+    <title>Tuition Teacher</title>
+
+    <!-- Custom styles for this template -->
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<style>
+		.navbar-nav{
+			float:right;
+		}
+		#city{
+			height:36px;
+		}
+	</style>
+
+<script>
+		 $(function() {
+    var availableTags = [
+      "Lahore",
+      "Karachi",
+      "Islamabad",
+      "Rawalpindi",
+      "Faisalabad",
+      "Multan",
+      "Gujranwala",
+      "Quetta",
+      "Peshawar",
+      "Hyderabad",
+      "Sialkot"
+    ];
+    $( "#city" ).autocomplete({
+      source: availableTags
+    });
+  });
+	</script>
+
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+	  <!--
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+        </div>
+		-->
+		<a class="navbar-brand" href="index.html">Find Tutor</a>
+        <div id="navbar" class="collapse navbar-collapse text-right">
+          <ul class="nav navbar-nav ">
+		  <!--
+            <li ><a href="login.html">Teachers Log In </a></li>
+			-->
+			<li><a href="signup.html">Teachers Sign Up</a></li>
+            <li><a href="#">Help</a></li>
+			<!--Sign Up
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+				-->
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!-- Begin page content -->
+    <div class="container">
+
+			
+		</div>
+		
+		<div class="row" style="padding-top:60px;">
+				<h1 class="col-md-12 text-center">Welcome.</h1>
+				<p class="col-md-12 text-center">This is a website which allows you to find a teacher online. We have teachers listed on the site. The students look up the teachers using the website and contact the teachers using phone or email.</p>
+				<h1 class="col-md-12 text-center">For Teachers.</h1>
+				<p class="col-md-12 text-center">Use the Sign up option on the top right of the website to sign up and you will be contacted via phone and email by students, parents and guardians.</p>
+				<h1 class="col-md-12 text-center">For Students, Parents and Guardians.</h1>
+				<p class="col-md-12 text-center"> Use the search button to locate teachers in your city. Further filter search results with respect to gender and education.</p>
+
+
+		</div>
+	</div> <!-- Container ends -->
+	
+
+    <footer class="footer">
+      <div class="container">
+		<div class="row">
+        <p class="text-muted text-left col-md-6">Copyright 2015. All Rights Reserved.</p>
+		<!--
+		<p class="text-muted text-right col-md-6">Facebook - Twitter - LinkedIn.</p>
+		-->		</div>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="dropdown.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="ie10-viewport-bug-workaround.js"></script>
+	
+  </body>
+</html>
